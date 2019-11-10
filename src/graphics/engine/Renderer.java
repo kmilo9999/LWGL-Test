@@ -99,8 +99,8 @@ public class Renderer {
 
         projectionMatrix.m30 = -(rigth + left) / (rigth - left); 
         projectionMatrix.m31 =  -(top + bottom) / (top - bottom);
-        projectionMatrix.m32 = -(far + near) / (far - near); 
-        projectionMatrix.m33 = 1;
+        projectionMatrix.m32 = -near / (far - near); 
+        projectionMatrix.m33 = 0;
 	    
 	    
 	    
