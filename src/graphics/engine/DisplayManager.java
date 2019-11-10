@@ -1,3 +1,4 @@
+package graphics.engine;
 import org.lwjgl.LWJGLException;
 import org.lwjgl.opengl.ATIDrawBuffers;
 import org.lwjgl.opengl.ContextAttribs;
